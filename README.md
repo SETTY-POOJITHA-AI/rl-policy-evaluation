@@ -44,6 +44,7 @@ np.set_printoptions(suppress=True)
 random.seed(123); np.random.seed(123)
 # Reference https://github.com/mimoralea/gym-walk
 ```
+```
 def print_policy(pi, P, action_symbols=('<', 'v', '>', '^'), n_cols=4, title='Policy:'):
     print(title)
     arrs = {k:v for k,v in enumerate(action_symbols)}
